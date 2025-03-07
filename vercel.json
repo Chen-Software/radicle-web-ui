@@ -1,3 +1,9 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/rad:id*",
+      "destination": "/nodes/seed.radicle.garden/rad::id*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
